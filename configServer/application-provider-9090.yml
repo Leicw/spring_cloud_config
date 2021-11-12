@@ -5,6 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8&nullCatalogMeansCurrent=true
     username: root
     password: 333
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jackson:
     date-format: 'yyyy-MM-dd HH:mm:ss'
   application:
