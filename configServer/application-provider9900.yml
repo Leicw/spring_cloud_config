@@ -3,8 +3,8 @@ server:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8&nullCatalogMeansCurrent=true
-    username: '{cipher}eb6a612fc2279931a20f867c2db6cdfbc785232f47729a451b26db672f2c85b4'
-    password: '{cipher}de8f3c248e02b580f2812cb60963df1ce4a05025edc7cf6605baa1c039a12d9e'
+    username: {cipher}eb6a612fc2279931a20f867c2db6cdfbc785232f47729a451b26db672f2c85b4
+    password: {cipher}de8f3c248e02b580f2812cb60963df1ce4a05025edc7cf6605baa1c039a12d9e
   jackson:
     date-format: 'yyyy-MM-dd HH:mm:ss'
   application:
