@@ -1,11 +1,10 @@
 server:
-  port: 9090
+  port: 9900
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT%2b8&nullCatalogMeansCurrent=true
     username: root
     password: 333
-    driver-class-name: com.mysql.cj.jdbc.Driver
   jackson:
     date-format: 'yyyy-MM-dd HH:mm:ss'
   application:
@@ -24,8 +23,8 @@ eureka:
     #告诉服务端，服务实例以IP作为链接，而不是取机器名
     prefer-ip-address: true
     #告诉服务端，这个服务实例的名字
-    instance-id: provider-instance-id-9090
+    instance-id: provider-instance-id-9900
   client:
     #eureka注册中心的连接地址
-    #    service-url.defaultZone: http://e8761:8761/eureka,http://e8762:8762/eureka,http://e8763:8763/eureka
+#    service-url.defaultZone: http://e8761:8761/eureka,http://e8762:8762/eureka,http://e8763:8763/eureka
     service-url.defaultZone: http://e8761:8761/eureka
