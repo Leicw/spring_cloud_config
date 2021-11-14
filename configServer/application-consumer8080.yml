@@ -11,6 +11,11 @@ spring:
   cloud:
     loadbalancer:
       enabled: true
+  rabbitmq:
+    host: 192.168.248.128
+    port: 15672
+    username: root
+    password: 333
 
 eureka:
   instance:
@@ -51,3 +56,4 @@ management:
 
 dynamicConfig:
   test-value: two
+
