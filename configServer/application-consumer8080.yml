@@ -55,5 +55,5 @@ management:
         include: '*'
 
 dynamicConfig:
-  test-value: three
+  test-value: four
 
