@@ -50,4 +50,4 @@ management:
         include: '*'
 
 dynamicConfig:
-  testValue: 'one'
+  test-value: one
