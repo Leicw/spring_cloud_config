@@ -49,4 +49,5 @@ management:
       exposure:
         include: '*'
 
-dynamicConfig: four
+dynamicConfig:
+  testValue: one
