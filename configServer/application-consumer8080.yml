@@ -48,8 +48,5 @@ management:
     web:
       exposure:
         include: '*'
-ribbon:
-  eager-load:
-    clients:
 
-dynamicConfig: two
+dynamicConfig: three
