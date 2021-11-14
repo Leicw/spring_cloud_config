@@ -49,4 +49,4 @@ management:
       exposure:
         include: '*'
 
-dynamicConfig: one
+dynamicConfig: four
