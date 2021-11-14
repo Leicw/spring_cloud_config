@@ -51,3 +51,5 @@ management:
 ribbon:
   eager-load:
     clients:
+
+dynamicConfig: one
